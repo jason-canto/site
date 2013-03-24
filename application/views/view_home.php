@@ -8,6 +8,7 @@
 <body>
 
 <div id="pagina">
+	<?print_r($_SESSION);?>
 	<h1><?=$titulo;?></h1>
 	<h1><?foreach($resultado[0] as $r) echo $r;?></h1>
 
